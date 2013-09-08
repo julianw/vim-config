@@ -1,24 +1,4 @@
 sy on
-
-" vundle
-set nocompatible
-filetype off
-
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
-
-Bundle 'gmarik/vundle'
-
-Bundle 'tpope/vim-fugitive'
-Bundle 'scrooloose/syntastic'
-Bundle 'bling/vim-airline'
-Bundle 'scrooloose/nerdtree'
-Bundle 'kien/ctrlp.vim'
-Bundle 'Shougo/neocomplcache.vim'
-
-filetype plugin indent on
-
-" sets
 set t_Co=256
 set tabstop=2 softtabstop=2 shiftwidth=2 noexpandtab
 set number
@@ -46,6 +26,24 @@ nnoremap { :wincmd h<CR>
 nmap - :bd<CR>
 nmap . :bn<CR>
 nmap , :bp<CR>
+
+" vundle
+set nocompatible
+filetype off
+
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+Bundle 'gmarik/vundle'
+
+Bundle 'tpope/vim-fugitive'
+Bundle 'scrooloose/syntastic'
+Bundle 'bling/vim-airline'
+Bundle 'scrooloose/nerdtree'
+Bundle 'kien/ctrlp.vim'
+Bundle 'Shougo/neocomplcache.vim'
+
+filetype plugin indent on
 
 " neocomplete
 " Disable AutoComplPop.
