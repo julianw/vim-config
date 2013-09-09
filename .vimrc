@@ -50,9 +50,15 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'kien/ctrlp.vim'
 Bundle 'Shougo/neocomplcache.vim'
 Bundle 'majutsushi/tagbar'
+Bundle 'groenewege/vim-less'
 
 filetype plugin indent on
 
+" Syntastic
+nmap <Leader>] :lnext
+nmap <Leader>[ :lprev
+let g:syntastic_javascript_checkers = ['jshint']
+ 
 " NERDTree
 autocmd FileType nerdtree cnoreabbrev <buffer> bd <nop>
 
