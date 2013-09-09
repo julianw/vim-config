@@ -55,8 +55,8 @@ Bundle 'groenewege/vim-less'
 filetype plugin indent on
 
 " Syntastic
-nmap <Leader>] :lnext
-nmap <Leader>[ :lprev
+nmap <Leader>] :lnext<CR>
+nmap <Leader>[ :lprev<CR>
 let g:syntastic_javascript_checkers = ['jshint']
  
 " NERDTree
