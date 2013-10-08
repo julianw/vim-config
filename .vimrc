@@ -1,6 +1,7 @@
 sy on
 set t_Co=256
-set tabstop=2 softtabstop=2 shiftwidth=2 noexpandtab
+set tabstop=2 softtabstop=2 shiftwidth=2 expandtab
+set encoding=utf-8
 set number
 set autoindent
 set pastetoggle=<F2>
